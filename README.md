@@ -1,2 +1,3 @@
-# SPFKSoX
-Swift wrapper on top of soxlib
+# SPFK SoX
+
+A SoX wrapper for macOS.
