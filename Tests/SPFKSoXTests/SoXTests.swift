@@ -122,7 +122,7 @@ class SoXTests: BinTestCase {
         #expect(avFile.fileFormat.channelCount == 1)
     }
 
-    @Test func concurrentInstances() async throws {
+    @MainActor @Test func concurrentInstances() async throws {
         deleteBinOnExit = false
 
         let task1 = Task {
